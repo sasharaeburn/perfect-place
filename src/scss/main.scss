@@ -2,12 +2,8 @@ html,
 body {
   height: 100%;
 }
-.wrapper {
+.container {
   height: 100%;
-  font-family: Helvetica, sans-serif;
-  line-height: 1.5;
-  word-spacing: 2px;
-  letter-spacing: 0.5px;
 }
 .fixed {
   background-attachment: fixed;
@@ -17,8 +13,6 @@ body {
   height: 100%;
   width: 100%;
   color: #eeeeee;
-  text-align: center;
-  display: table;
 }
 
 .scroll {
@@ -26,8 +20,19 @@ body {
   padding: 10px 70px;
   color: #666666;
 }
+
+.text {
+  text-align: right;
+  font-family: 'Sonny', sans-serif;
+  font-weight: 600;
+  padding-top: 200px;
+  font-size: 72px;
+  width: 50%;
+  color: #927979;
+}
+
 .one {
-  background-image: url("../images/2.jpg")
+  background-image: url("../images/4.jpg")
 }
 .two {
   background-image: url("../images/3.jpg")
