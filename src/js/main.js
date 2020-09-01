@@ -8,5 +8,3 @@ window.onscroll = function () {
         navbar.classList.remove('scroll');
     }
 };
-
-console.log(navbar);
