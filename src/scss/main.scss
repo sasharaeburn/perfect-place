@@ -120,13 +120,26 @@ body {
   flex-flow: row wrap;
   justify-content: space-evenly;
   padding: 20px;
+  text-align: center;
 
   .icon {
     flex-basis: 33%;
     padding: 20px;
 
+    img {
+      width: 45px;
+    }
+
     h3 {
       margin: 0;
     }
   }
+}
+
+footer {
+  color: black;
+  background-color: #ebebeb;
+  padding-bottom: 8vh;
+  flex: 0 0 auto;
+  text-align: center;
 }
