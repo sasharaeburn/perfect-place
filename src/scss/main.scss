@@ -28,11 +28,13 @@ body {
 
   &.first {
     justify-content: flex-end;
+    min-height: 600px;
 
     .text {
       color: #927979;
-      flex-basis: 50%;
       font-size: 72px;
+      flex-basis: 43%;
+      align-self: center;
     }
   }
 
@@ -55,9 +57,10 @@ body {
 
   &.third {
     flex-direction: column;
-    padding-top: 20px;
+    padding: 40px;
 
     .text {
+      padding: 10px;
       align-self: center;
       font-size: 42px;
       color: #927979;
