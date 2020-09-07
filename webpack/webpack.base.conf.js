@@ -65,6 +65,11 @@ module.exports = {
             template: './src/index.html',
             filename: 'index.html',
         }),
+        new HtmlWebpackPlugin({
+            hash: false,
+            template: './src/booking.html',
+            filename: 'booking.html',
+        }),
         new CopyPlugin({
             patterns: [
                 { from: `${PATHS.src}/images`, to: `${PATHS.build}/images` },
