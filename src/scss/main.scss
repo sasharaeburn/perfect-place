@@ -51,9 +51,10 @@ body {
 
   &.first {
     min-height: 600px;
+    justify-content: flex-end;
 
     @media (min-width: 767px) {
-      justify-content: center;
+      justify-content: flex-end;
     }
 
     @media (min-width: 1300px) {
@@ -63,8 +64,13 @@ body {
     .text {
       color: #927979;
       padding: 20px;
+      flex-basis: 60%;
       align-self: center;
-      font-size: 36px;
+      font-size: 42px;
+
+      @media (min-width: 767px) {
+        flex-basis: 60%;
+      }
 
       @media (min-width: 1300px) {
         flex-basis: 43%;
