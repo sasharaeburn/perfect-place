@@ -201,6 +201,7 @@ body {
   background-color: #a5a69f;
   background-image: url("../images/4.jpg");
 }
+
 .two {
   background-color: #fff9f4;
 }
@@ -231,7 +232,7 @@ body {
   }
 }
 
-.container-second-page {
+.booking-container {
   background-color: #ebebeb;
 
   @media (min-width: 767px) {
@@ -323,6 +324,58 @@ body {
           width: 300px;
         }
       }
+    }
+  }
+}
+
+.contact-container {
+  background-color: #ebebeb;
+
+  @media (min-width: 767px) {
+    min-height: 100%;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #927979;
+
+    @media (min-width: 767px) {
+      padding-top: 70px;
+      font-size: 40px;
+    }
+
+    @media (min-width: 1300px) {
+      padding-top: 70px;
+      font-size: 25px;
+    }
+
+    h2 {
+      align-self: center;
+      margin: 10px;
+      font-weight: 400;
+    }
+
+    h3 {
+      align-self: center;
+      margin: 0;
+      font-weight: 400;
+    }
+  }
+
+  .contact-form {
+
+    .message-form {
+
+    }
+
+    .email-form {
+
+    }
+
+    .submit-button {
+
     }
   }
 }

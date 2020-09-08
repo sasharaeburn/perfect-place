@@ -70,6 +70,11 @@ module.exports = {
             template: './src/booking.html',
             filename: 'booking.html',
         }),
+        new HtmlWebpackPlugin({
+            hash: false,
+            template: './src/contact-us.html',
+            filename: 'contact-us.html',
+        }),
         new CopyPlugin({
             patterns: [
                 { from: `${PATHS.src}/images`, to: `${PATHS.build}/images` },
