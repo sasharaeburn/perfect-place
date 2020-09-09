@@ -2,29 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
     <title>Напишите нам</title>
 </head>
-<body>
-<div class="contact-container">
-    <div class="navbar" id="navbar">
-        <a href="index.html">Perfect Place</a>
-        <div class="nav-buttons">
-            <a href="booking.html">Забронировать</a>
-            <a href="contact-us.html">Напишите нам</a>
+<body class="page-image">
+<div class="navbar" id="navbar">
+    <a href="index.html">Perfect Place</a>
+    <div class="nav-buttons">
+        <a href="booking.html">Забронировать</a>
+        <a href="contact-us.html">Напишите нам</a>
+    </div>
+</div>
+
+<div class="fixed-element one">
+    <div class="container">
+        <div class="contact-container">
+            <div class="header">
+                <h2>Остались вопросы?</h2>
+                <h3>Напишите нам, и мы свяжемся с вами в течение нескольких часов</h3>
+            </div>
+            <div class="contact-form">
+                <form class="message-form">
+                    <textarea class="message" rows="6" id="message" placeholder="Ваше сообщение" autocomplete="off"></textarea>
+                    <input type="text" class="email" id="email" placeholder="Ваш email">
+                    <div class="form-button">
+                        <button class="submit-button" type="submit">Отправить</button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </div>
-    <div class="header">
-        <h2>Остались вопросы?</h2>
-        <h3>Напишите нам, и мы свяжемся с вами в течение нескольких часов</h3>
-    </div>
-    <div class="contact-form">
-        <form class="message-form">
-            <input type="text" class="message" id="message" placeholder="Ваше сообщение" autocomplete="off">
-        </form>
-        <form class="email-form">
-            <input type="text" class="email" id="email" placeholder="Ваш email">
-        </form>
-        <button class="submit-button">Отправить</button>
     </div>
 </div>
 
