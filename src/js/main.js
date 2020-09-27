@@ -7,3 +7,14 @@ window.onscroll = function () {
         navbar.classList.remove('scroll');
     }
 };
+
+const contactForm = document.getElementById('contact-form');
+
+if (typeof contactForm !== "undefined") {
+    contactForm.onsubmit = function (event) {
+        event.preventDefault();
+        event.target.reset();
+
+        alert('Сообщение отправлено.');
+    }
+}

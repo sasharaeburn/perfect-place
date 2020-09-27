@@ -1,0 +1,16 @@
+
+.copyright {
+  color: $gray-400;
+  text-align: center;
+
+  .copyright-link {
+    color: $gray-500;
+    text-decoration: none;
+    transition: color .15s;
+    padding: 2px 4px;
+
+    &:hover {
+      color: $gray-700;
+    }
+  }
+}

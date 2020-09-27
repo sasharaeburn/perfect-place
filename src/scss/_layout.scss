@@ -32,10 +32,23 @@ body {
   }
 
   & > footer {
-    padding-bottom: 8vh;
+    padding-top: 2vh;
+    padding-bottom: 6vh;
     flex: 0 0 auto;
-    text-align: center;
     background-color: $body-bg;
+
+    @include media-breakpoint-only('sm') {
+      padding-bottom: 8vh;
+    }
+    @include media-breakpoint-only('md') {
+      padding-bottom: 10vh;
+    }
+    @include media-breakpoint-only('lg') {
+      padding-bottom: 12vh;
+    }
+    @include media-breakpoint-up('xl') {
+      padding-bottom: 14vh;
+    }
   }
 }
 
@@ -84,5 +97,25 @@ body {
 
   &.fixed-element-light {
     background-color: $body-bg-light;
+  }
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 4vh;
+
+  @include media-breakpoint-only('sm') {
+    margin-bottom: 5vh;
+  }
+  @include media-breakpoint-only('md') {
+    margin-bottom: 6vh;
+  }
+  @include media-breakpoint-only('lg') {
+    margin-bottom: 7vh;
+  }
+  @include media-breakpoint-up('xl') {
+    margin-bottom: 8vh;
   }
 }

@@ -24,27 +24,36 @@
 
 <div class="fixed-element fixed-element-main">
     <div class="container">
-        <div class="contact-container">
-            <div class="header">
-                <h2>Остались вопросы?</h2>
-                <h3>Напишите нам, и мы свяжемся с вами в течение нескольких часов</h3>
-            </div>
-            <div class="contact-form">
-                <form class="message-form">
-                    <textarea class="message" rows="6" id="message" placeholder="Ваше сообщение" autocomplete="off"></textarea>
-                    <input type="text" class="email" id="email" placeholder="Ваш email">
-                    <div class="form-button">
-                        <button class="submit-button" type="submit">Отправить</button>
-                    </div>
-                </form>
-            </div>
+        <div class="contact-title">
+            <h2>Остались вопросы?</h2>
+            <h3>Напишите нам, и мы свяжемся с вами в течение нескольких часов</h3>
+        </div>
+
+        <div class="contact-form-wrapper">
+            <form class="contact-form" id="contact-form" method="post">
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" name="message" placeholder="Ваше сообщение" required
+                              autocomplete="off"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <input class="form-control" type="text" name="email" placeholder="Ваш email" required>
+                </div>
+
+                <div class="form-group form-button">
+                    <button class="btn" type="submit">Отправить</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
 
 <footer>
-    <div class="copyright">
-        <span>Вёрстка <a href="https://github.com/sasharaeburn">@sasharaeburn</a></span>
+    <div class="container">
+        <div class="copyright">
+            <span>made by</span>
+            <a class="copyright-link" href="https://github.com/sasharaeburn" target="_blank">@sasharaeburn</a>
+        </div>
     </div>
 </footer>
 </body>
